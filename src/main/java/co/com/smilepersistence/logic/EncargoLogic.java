@@ -85,6 +85,7 @@ public class EncargoLogic extends AbstractInject implements EncargoLogicLocal {
 		}
 		return encargoListDTO;
 	}
+	
 	@Override
 	public Object converterEntityADTO(Object object) throws Exception {
 		Encargo encargo = (Encargo) object;		
